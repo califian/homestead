@@ -10,14 +10,14 @@ keys:
     - ~/.ssh/id_rsa
 
 folders:
-    - map: /Volumes/Ensure/limitless/Code/Code
-      to: /home/vagrant/Code
+    - map: /Volumes/Ensure/limitless/Projects
+      to: /home/vagrant/Projects
 
 sites:
     - map: madeny.dev
-      to: /home/vagrant/Code/Laravel/public
+      to: /home/vagrant/Projects/Laravel/public
     - map: php.dev
-      to: /home/vagrant/Code/sandbox
+      to: /home/vagrant/Projects/sandbox
 
 
 
