@@ -1,6 +1,6 @@
 ---
 ip: "192.168.10.10"
-memory: 2048
+memory: 1024
 cpus: 1
 provider: virtualbox
 
@@ -10,12 +10,16 @@ keys:
     - ~/.ssh/id_rsa
 
 folders:
-    - map: ~/Code
+    - map: /Volumes/Ensure/limitless/Code/Code
       to: /home/vagrant/Code
 
 sites:
-    - map: homestead.app
+    - map: madeny.dev
       to: /home/vagrant/Code/Laravel/public
+    - map: php.dev
+      to: /home/vagrant/Code/sandbox
+
+
 
 databases:
     - homestead
