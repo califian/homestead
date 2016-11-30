@@ -18,6 +18,11 @@ sites:
       to: /home/vagrant/Projects/Laravel/public
     - map: php.dev
       to: /home/vagrant/Projects/sandbox
+    - map: laravel.dev
+      to: /home/vagrant/Projects/LaraProject
+    - map: express.dev
+      to: /home/vagrant/Projects/express
+
 
 
 
